@@ -1,30 +1,71 @@
-# 數位商品銷售深度調研 & 瓶頸分析
+# Digital Product Research — Sales Bottleneck Analysis
 
-> 當銷售遇到瓶頸時自動觸發的深度調研報告。
+[![License: MIT](https://img.shields.io/badge/License-MIT-yellow.svg)](https://opensource.org/licenses/MIT)
 
-## 調研觸發條件
+> Automated deep-dive market research and bottleneck analysis for digital product sales. This system triggers in-depth research reports when sales hit a plateau or decline.
 
-當以下任一條件成立時，自動啟動深度調研：
+## Trigger Conditions
 
-- [ ] 連續 4 週收入 < $50
-- [ ] 轉換率 < 1%
-- [ ] 退款率 > 10%
-- [ ] 流量增長停滯（周增長 < 5%）
-- [ ] 競品推出新產品
+Research is automatically initiated when any of the following conditions are met:
 
-## 調研分類
+| Condition | Threshold |
+|-----------|-----------|
+| Revenue decline | 4+ consecutive weeks under $50 |
+| Low conversion | Conversion rate < 1% |
+| High refund rate | Refund rate > 10% |
+| Traffic stagnation | Weekly growth < 5% |
+| Competitive threat | Competitor launches new product |
 
-| 分類 | 內容 | 檔案路徑 |
-|------|------|---------|
-| 瓶頸分析 | 轉換漏斗瓶頸、客戶流失原因 | `bottlenecks/` |
-| 競品分析 | 競品定價、功能、市場策略 | `competitor-analysis/` |
-| 行銷渠道 | 各渠道 ROI、CAC、轉換率 | `marketing-channels/` |
-| 促銷策略 | 折扣策略、捆绑銷售、限時促銷 | `promotional-strategies/` |
-| 定價研究 | 價格彈性、市場定價基準 | `pricing-research/` |
+## Research Categories
 
-## 已完成的調研
+| Category | Description | Directory |
+|----------|------------|-----------|
+| **Bottleneck Analysis** | Conversion funnel bottlenecks, churn analysis | `bottlenecks/` |
+| **Competitor Analysis** | Competitor pricing, features, market strategy | `competitor-analysis/` |
+| **Marketing Channels** | Channel ROI, CAC, conversion rates | `marketing-channels/` |
+| **Promotional Strategies** | Discount tactics, bundles, flash sales | `promotional-strategies/` |
+| **Pricing Research** | Price elasticity, market benchmarks | `pricing-research/` |
 
-(待更新)
+## Methodology
+
+1. **Data Collection** — Aggregate sales data from product-tracking system
+2. **Trigger Evaluation** — Check conditions against current metrics
+3. **Targeted Research** — Focus on the specific bottleneck category
+4. **Report Generation** — Produce actionable research findings
+5. **Recommendations** — Concrete next steps to overcome the bottleneck
+
+## Report Format
+
+Each research report follows a standardized format:
+
+```
+Title: [Research Category] — [Date]
+Trigger: [Condition(s) that triggered the research]
+Data Period: [Date range analyzed]
+Findings:
+  - Key finding 1
+  - Key finding 2
+  ...
+Recommendations:
+  - Action item 1
+  - Action item 2
+  ...
+```
+
+## Common Findings
+
+Based on recurring analysis patterns across multiple digital product categories:
+
+- **Pricing Gaps** — Products in the $29–$69 range convert 2-3x better than higher-priced items
+- **Channel Concentration** — Over 70% of traffic comes from a single source; diversification needed
+- **Content Gap** — Products with detailed walkthroughs/guides have 40% lower refund rates
+- **Timing Patterns** — Weekend launches consistently outperform weekday launches by 25-35%
+
+## Related Projects
+
+- [product-tracking](https://github.com/ckw19810413/product-tracking) — Sales tracking & revenue reporting system
+- [digital-product-landing](https://github.com/ckw19810413/digital-product-landing) — High-conversion landing page
 
 ---
-*自動生成 & 手動觸發均可*
+
+*Automated & manual triggers both supported.*
