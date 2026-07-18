@@ -1,20 +1,15 @@
-# 🔍 數位商品銷售深度調研報告
+# digital-product-research
 
-> 當銷售遇到瓶頸時自動觸發的深度調研報告。用數據驅動決策，找到增長機會。
+一個用於數位產品市場調查與分析的開源工具集，協助創作者找出高潛力產品點子。
 
-[![License: MIT](https://img.shields.io/badge/License-MIT-blue.svg)](LICENSE)
-[![Last Updated](https://img.shields.io/badge/Last_Updated-2026--07-green.svg)]()
+![License](https://img.shields.io/badge/license-MIT-blue.svg) ![Last Updated](https://img.shields.io/badge/last%20updated-2025-brightgreen.svg) ![Stars](https://img.shields.io/github/stars/ckw19810413/digital-product-research?style=social) ![Repo Size](https://img.shields.io/github/repo-size/ckw19810413/digital-product-research)
 
 ## 📋 目錄
-
 - [快速開始](#快速開始)
-- [調研觸發條件](#調研觸發條件)
-- [調研分類](#調研分類)
+- [功能特色](#功能特色)
 - [專案結構](#專案結構)
-- [使用方式](#使用方式)
-- [貢獻指南](#貢獻指南)
+- [使用案例](#使用案例)
 - [相關專案](#相關專案)
-- [授權條款](#授權條款)
 
 ## 🚀 快速開始
 
@@ -32,7 +27,17 @@ cat bottlenecks/weekly-2026-W29.md
 # 按照現有格式新增新的調研文件到對應資料夾
 ```
 
-## ⚠️ 調研觸發條件
+## ✨ 功能特色
+
+- 📊 **市場趨勢分析** — 追蹤市場變化、識別新興趨勢與機會
+- 🔴 **瓶頸分析** — 透過轉換漏斗分析找出銷售瓶頸與客戶流失原因
+- 🟡 **競爭對手調查** — 競品定價、功能、市場策略的深度分析
+- 📈 **產品潛力評估** — 自動觸發機制評估產品成長潛力
+- 🟢 **促銷策略指南** — 折扣策略、捆绑銷售、限時促銷實戰指南
+- 🟣 **定價研究** — 價格彈性分析、市場定價基準
+- 🔵 **行銷渠道分析** — 各渠道 ROI、CAC、轉換率追蹤
+
+### 調研觸發條件
 
 當以下任一條件成立時，自動啟動深度調研：
 
@@ -41,16 +46,6 @@ cat bottlenecks/weekly-2026-W29.md
 - [ ] 退款率 > 10%
 - [ ] 流量增長停滯（周增長 < 5%）
 - [ ] 競品推出新產品
-
-## 📊 調研分類
-
-| 分類 | 內容 | 檔案路徑 |
-|------|------|---------|
-| 🔴 瓶頸分析 | 轉換漏斗瓶頸、客戶流失原因 | `bottlenecks/` |
-| 🟡 競品分析 | 競品定價、功能、市場策略 | `competitor-analysis/` |
-| 🔵 行銷渠道 | 各渠道 ROI、CAC、轉換率 | `marketing-channels/` |
-| 🟢 促銷策略 | 折扣策略、捆绑銷售、限時促銷 | `promotional-strategies/` |
-| 🟣 定價研究 | 價格彈性、市場定價基準 | `pricing-research/` |
 
 ## 📁 專案結構
 
@@ -65,6 +60,8 @@ digital-product-research/
 ├── pricing-research/         # 定價研究（待新增）
 ├── .github/                  # GitHub 設定檔
 │   ├── ISSUE_TEMPLATE/       # Issue 模板
+│   │   ├── bug_report.md
+│   │   └── feature_request.md
 │   └── PULL_REQUEST_TEMPLATE.md
 ├── CODE_OF_CONDUCT.md        # 行為準則
 ├── SUPPORT.md                # 支援文件
@@ -72,19 +69,15 @@ digital-product-research/
 └── README.md
 ```
 
-## 💡 關鍵功能
+## 🎯 使用案例
 
-- 🎯 **自動觸發機制**：明確的觸發條件，知道何時該調研
-- 📊 **多維度分析**：涵蓋瓶頸、競品、行銷、促銷、定價五大面向
-- 📝 **報告模板化**：標準化格式，每次調研都有完整記錄
-- 🔄 **持續迭代**：每週更新，追蹤趨勢變化
-
-## 🎯 適用場景
-
-- 數位商品創作者需要定期檢視銷售表現
-- 團隊需要結構化的問題診斷流程
-- 產品經理需要數據驅動的產品迭代依據
-- 行銷人員需要競品和市場分析框架
+- 🔍 尋找下一個熱門數位產品
+- 📊 分析市場需求與供給
+- 🎯 評估產品進入點
+- 📈 數位商品創作者定期檢視銷售表現
+- 🧩 團隊結構化的問題診斷流程
+- 📝 數據驅動的產品迭代依據
+- 📣 競品和市場分析框架
 
 ## 🔗 相關專案
 
@@ -108,6 +101,10 @@ digital-product-research/
 - 使用 [Issue Templates](.github/ISSUE_TEMPLATE/) 回報問題
 - 使用 [PR Templates](.github/PULL_REQUEST_TEMPLATE.md) 提交變更
 
-## 📜 授權條款
+## 📜 授權
 
-本專案採用 [MIT License](LICENSE) 授權。
+MIT License
+
+---
+
+Made with ❤️ by [KWC](https://github.com/ckw19810413)
