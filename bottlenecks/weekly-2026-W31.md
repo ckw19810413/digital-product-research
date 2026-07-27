@@ -1,215 +1,93 @@
-# 數位商品行銷與上架優化策略 — 2026-W31
+# 數位商品瓶頸分析 — 2026-07-27
 
-**調研日期:** 2026-07-23
-**瓶頸類型:** zero-sales / no-marketing / product-completion
-**嚴重程度:** critical
+**觸發日期:** 2026-07-27
+**瓶頸類型:** revenue-zero / marketing-gap
+**嚴重程度:** high
 **報告週期:** 2026-W31
 
+## 問題描述
+
+所有 3 個已上架產品皆為零銷售 (0 筆交易)。
+這是最關鍵的瓶頸 — 產品已上架但無流量、無曝光、無收入。
+
+## 瓶頸分解
+
+### 🟠 瓶頸 1: 3 個已上架產品零銷售
+- 涉及產品: Ship With AI: The 4-Hour Course to Automate Real Work (No Code), The AI Prompt Library — 300+ Battle-Tested Prompts for Real Work, 飛書模板市集 — 中文世界第一套專業的飛書/釘釘工作模板
+- 建議: 需要行銷引流 — Landing Page + Social Media
+
+### 🟡 瓶頸 2: 1 個已上架產品缺少封面圖
+- 涉及產品: Ship With AI: The 4-Hour Course to Automate Real Work (No Code)
+- 建議: 加上高品質封面圖可提升轉換率 2-3 倍
+
+### 🔴 瓶頸 3: 1 個已上架產品缺少實際內容檔
+- 涉及產品: Ship With AI: The 4-Hour Course to Automate Real Work (No Code)
+- 建議: 上傳產品內容檔案，否則無法交付
+
+### 🟡 瓶頸 4: 6 個產品仍為草稿狀態
+- 涉及產品: test-product-do-not-publish, 50 個 AI 提效 Prompts 完整指南, The Feishu / Lark Team Automation Pack - 20 Plug-and-Play Systems, 飛書模板市集, 繁體中文 AI 實戰課程, The ETF Command Center: Live Analytics, Backtests & Rebalance Alerts
+- 建議: 完成草稿產品上架
+
+## 根因分析
+
+### 1. 流量來源為零 (Critical)
+- 無 Landing Page 作為轉換入口
+- 無 Twitter/X 帳號運營
+- 無 Reddit/社群參與
+- 無 SEO 自然流量
+
+**影響:** 潛在客戶找不到你的產品。Gumroad 平台內流量也需要產品有標籤、有評價。
+
+### 2. 產品頁面不完整 (High)
+- 多個產品缺少封面圖 → 點擊率低
+- 所有產品標籤 (tags) 空白 → 平台內不可發現
+- 描述缺乏 social proof（推薦、評價）
+
+### 3. 定價策略 (Medium)
+- 需觀察市場對 $49/$297/$197/$19 的接受度
+- 建議先以 $49 產品建立第一筆收入，再逐步提高
+
+## 30 天行動計畫
+
+### 第 1 週：基礎建設 (Day 1-7)
+- [ ] 建立 Landing Page (Next.js + Vercel, 免費)
+- [ ] 所有已上架產品加上高品質封面圖 (Flux AI 生成)
+- [ ] 為每個產品加上 6-10 個標籤 (tags)
+- [ ] 在 Gumroad 加入免費預覽內容
+
+### 第 2 週：冷啟動 (Day 8-14)
+- [ ] 建立 Twitter/X 帳號 (@slashman6)
+- [ ] 每天發布 1-2 則相關內容
+- [ ] 加入 Reddit: r/AI, r/ChatGPT, r/SaaS, r/gumroad
+- [ ] 發布 Gumroad 上架公告 (Gumroad social channels)
+
+### 第 3 週：擴張 (Day 15-21)
+- [ ] 啟動 LinkedIn 專業內容
+- [ ] 嘗試 Gumroad 付費推廣 ($5-10/天)
+- [ ] 建立 Email List (Mailchimp/ConvertKit)
+- [ ] 加入 HuggingFace / GitHub 社群
+
+### 第 4 週：優化 (Day 22-30)
+- [ ] 分析流量來源數據
+- [ ] 調整定價策略
+- [ ] 收集早期客戶反饋
+- [ ] 啟動第二波行銷
+
+## 預估收入
+
+| 產品 | 預估月銷售 | 單價 | 月收入 |
+|------|----------|------|--------|
+| AI Prompt 庫 | 5-20 筆 | $49 | $245-$980 |
+| AI 實戰課程 | 2-10 筆 | $297 | $594-$2,970 |
+| 飛書模板套組 | 3-15 筆 | $197 | $591-$2,955 |
+| ETF 儀表板 | 5-30 筆 | $19 | $95-$570 |
+| **合計** | **15-95 筆** | | **$1,525-$7,475** |
+
+**關鍵假設:** 第一個月累積緩慢，但 30 天內應有第一筆收入。若無收入則需重新評估市場定位。
+
+## 下次調研日期
+
+如 {WEEK_END} 前仍無收入，重新調研並調整策略。下次自動調研日期: 下週一 10:00 AM
 ---
 
-## 執行摘要
-
-6 個已上架產品全部零銷售，核心原因是 **零流量 + 產品頁面不完整**。本報告提供可執行的完整策略，包含：
-
-1. **產品頁面優化**（封面圖、標籤、描述）
-2. **Landing Page 開發**（作為流量匯集點）
-3. **冷啟動行銷策略**（Twitter/X、Reddit、社群）
-4. **內容行銷計畫**（SEO + 價值內容）
-
----
-
-## 一、產品頁面優化（立即執行）
-
-### 1.1 封面圖生成
-
-Gumroad 產品的封面圖直接影響點擊率 2-3 倍。已有 Flux 模型可用，可批量生成。
-
-**待加封面的產品：**
-| 產品 | 建議風格 | 尺寸 |
-|------|---------|------|
-| 繁體 AI Prompt 庫 ($49) | 現代科技風，藍色系 | 1280x720 |
-| 繁體中文 AI 實戰課程 ($297) | 教育/課程風格，專業感 | 1280x720 |
-| 飛書模板市集 ($29) | 飛書品牌藍，簡潔 | 1280x720 |
-| 飛書模板套組 ($197) | 商務風格，高價值感 | 1280x720 |
-| 繁體中文 AI 實戰課程（另一版本 $297） | 教育風格 | 1280x720 |
-
-### 1.2 產品標籤 (Tags)
-
-所有產品 tags 全部空白，這嚴重影響 Gumroad 平台內搜尋。
-
-**建議標籤：**
-| 產品 | 建議標籤 |
-|------|---------|
-| AI Prompt 庫 | `ai-prompt`, `chatgpt`, `prompt-engineering`, `ai-tools`, `chinese-ai`, `productivity`, `chatgpt-prompts` |
-| AI 實戰課程 | `ai-course`, `artificial-intelligence`, `tutorial`, `chinese`, `ai-education`, `chatgpt-course`, `prompt-engineering` |
-| 飛書模板 | `feishu`, `lark`, `template`, `productivity`, `business`, `work-template`, `notion-alternative` |
-| 飛書套組 | `feishu`, `lark`, `template-bundle`, `business-tools`, `productivity-pack`, `workplace` |
-| ETF 儀表板 | `etf`, `stock-analysis`, `finance`, `investment`, `taiwan-stock`, `financial-dashboard`, `data-analysis` |
-
-### 1.3 產品文件上傳
-
-部分產品缺少實際交付文件：
-- 繁體中文 AI 實戰課程 — 需上傳課程文件
-- 台股 ETF 儀表板 — 需上傳儀表板文件
-
----
-
-## 二、Landing Page 開發（核心流量入口）
-
-### 2.1 為什麼需要 Landing Page
-
-- Gumroad 平台內流量需要產品有評價和標籤才能被發現
-- Landing Page 可作為所有外部流量的匯集點
-- 可收集 Email List，建立回購管道
-- 可放置推薦、評價，建立信任
-
-### 2.2 Landing Page 結構建議
-
-```
-Landing Page (slashmantools.us/products)
-├── Hero Section: 一句話價值主張
-├── 產品展示區（3-5 個產品卡片）
-├── 免費預覽/試用區
-├── 客戶評價（早期可放開發者推薦）
-├── Email Capture（免費資源下載換 Email）
-├── FAQ（常見問題）
-└── CTA（前往購買按鈕）
-```
-
-### 2.3 技術方案
-
-使用 Next.js + Vercel（免費部署）：
-- 每個產品獨立頁面
-- 共享导航和頁尾
-- OG 圖片（SEO + 社群分享）
-- Google Analytics 追蹤
-
----
-
-## 三、冷啟動行銷策略（第 1-2 週）
-
-### 3.1 Twitter/X 內容計畫
-
-**帳號設定：**
-- 帳號：@slashman6 或 @slashmantools
-- 頭像：專業形象
-- Bio：簡潔說明產品價值
-
-**內容週曆（每天 1-2 則）：**
-
-| 星期 | 內容類型 | 範例 |
-|------|---------|------|
-| 一 | 工具介紹 | 「我開發了這套 Prompt 庫，解決什麼問題？」 |
-| 二 | 使用心得 | 「使用 AI Prompt 的 3 個小技巧」 |
-| 三 | 社群互動 | 問問題：「你用 AI 做什麼最常用？」 |
-| 四 | 案例分享 | 「用 AI 自動化工作流程的真實案例」 |
-| 五 | 產品推廣 | 「本週產品優惠/新功能」 |
-| 六 | 學習分享 | 「我從 AI 中學到的事」 |
-| 日 | 休息 | — |
-
-**關鍵原則：**
-- 80% 價值內容，20% 促銷
-- 使用中文 + 英文雙語（擴展受眾）
-- 加上相關的 hashtags：#AI #promptengineering #chinese
-
-### 3.2 Reddit 參與
-
-**目標子版面：**
-| 子版面 | 策略 |
-|--------|------|
-| r/ChatGPT | 分享 Prompt 庫的使用經驗 |
-| r/AI | AI 工具使用心得 |
-| r/Productivity | 效率工具推薦 |
-| r/gumroad | Gumroad 產品推廣 |
-| r/Notion | Notion/飛書模板比較 |
-| r/TWstock | 台股 ETF 分析工具 |
-| r/FinancialPlanning | 投資工具分享 |
-
-**Reddit 規則：**
-- 不要直接推銷，先提供價值
-- 在相關討論中自然提及產品
-- 回應別人的問題，建立信任
-
-### 3.3 Gumroad 平台內優化
-
-Gumroad 本身有搜尋引擎，但需要：
-1. 產品標籤 (完成 1.2)
-2. 產品評價 (早期需主動收集)
-3. 產品描述完整 (完成 1.3)
-
----
-
-## 四、內容行銷與 SEO（第 3-4 週）
-
-### 4.1 部落格內容
-
-在 Landing Page 上建立 Blog，發布：
-
-| 文章類型 | 範例標題 | 目的 |
-|---------|---------|------|
-| 教學 | 「ChatGPT 必學的 10 個 Prompt 技巧」 | 引流 + 展示 Prompt 庫價值 |
-| 比較 | 「Notion  vs 飛書：哪套工具適合你？」 | 引流 + 展示模板套組 |
-| 案例 | 「我用 AI 每週省下 10 小時的方法」 | 展示 AI 課程價值 |
-| 工具 | 「台股 ETF 分析：我的儀表板開發過程」 | 展示 ETF 儀表板 |
-
-### 4.2 社群平台
-
-| 平台 | 內容形式 | 頻率 |
-|------|---------|------|
-| 知乎 | 中文 AI 教學文章 | 每週 1-2 篇 |
-| Medium | 英文 AI 工具評論 | 每週 1 篇 |
-| LinkedIn | 商業 AI 應用 | 每週 1-2 篇 |
-
----
-
-## 五、預估時間與資源
-
-### 5.1 時間分配建議（每週）
-
-| 項目 | 時間 | 優先級 |
-|------|------|--------|
-| 產品頁面優化（封面、標籤） | 4 小時 | 最高 |
-| Landing Page 開發 | 8 小時 | 高 |
-| Twitter 內容創作 | 3 小時/週 | 高 |
-| Reddit 參與 | 2 小時/週 | 中 |
-| 部落格文章 | 4 小時/週 | 中 |
-
-### 5.2 可用資源
-
-| 資源 | 狀態 | 用途 |
-|------|------|------|
-| Flux AI 模型 | ✅ 可用 | 生成產品封面圖 |
-| MusicGen | ✅ 已快取 | 非必要 |
-| Local Firecrawl | ✅ localhost:3002 | 內容爬取 |
-| Vercel 帳號 | 需確認 | Landing Page 部署 |
-| Google Analytics | 需設置 | 流量追蹤 |
-
----
-
-## 六、成功指標（KPI）
-
-| 指標 | 第 1 週目標 | 第 4 週目標 |
-|------|-----------|-----------|
-| 產品頁面完整度 | 100%（封面+標籤） | 100% |
-| Landing Page | 開發完成 | 已上線 |
-| Twitter 追蹤者 | 50+ | 200+ |
-| 部落格文章 | 4 篇 | 16 篇 |
-| Reddit 參與 | 5 次有意義回應 | 20 次 |
-| 網站流量 | 0 → 10/天 | 50+/天 |
-| 月收入 | $0 | $100+ |
-
----
-
-## 七、立即執行清單（Next 7 Days）
-
-- [ ] Day 1-2: 為所有 6 個已上架產品生成高品質封面圖 (使用 Flux)
-- [ ] Day 2-3: 為所有產品加上 6-10 個相關標籤 (tags)
-- [ ] Day 3-4: 建立 Landing Page 框架 (Next.js)
-- [ ] Day 4-5: 為每個產品加入詳細描述和免費預覽
-- [ ] Day 5-6: 設定 Twitter/X 帳號，撰寫 5 則開頭貼文
-- [ ] Day 6-7: 加入 Reddit 社群，撰寫 2 則有價值的回應
-
----
-
-*調研生成於 2026-07-23*
-*下次調研：2026-07-28（下週一 10:00 AM）*
+*自動生成於 {DATE}*
