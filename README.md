@@ -3,9 +3,9 @@
 > 數位商品銷售調研與瓶頸分析框架。自動化的深度研究報告，協助你在銷售遇到瓶頸時快速定位問題、找到解決方案。
 
 [![License: MIT](https://img.shields.io/badge/License-MIT-yellow.svg)](https://opensource.org/licenses/MIT)
-[![Last Updated](https://img.shields.io/badge/Last_Updated-2026--07-brightgreen.svg)]()
-[![Stars](https://img.shields.io/github/stars/ckw19810413/digital-product-research?style=social)]()
-[![Repo Size](https://img.shields.io/github/repo-size/ckw19810413/digital-product-research)]()
+![Last Updated](https://img.shields.io/badge/Last_Updated-2026--07-brightgreen.svg)
+![Stars](https://img.shields.io/github/stars/ckw19810413/digital-product-research?style=social)
+![Repo Size](https://img.shields.io/github/repo-size/ckw19810413/digital-product-research)
 
 ## 📋 目錄
 
