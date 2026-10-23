@@ -1,24 +1,24 @@
-# 數位商品瓶頸分析 — 2026-10-19
+# 數位商品瓶頸分析 — 2026-10-23
 
-**觸發日期:** 2026-10-19
+**觸發日期:** 2026-10-23
 **瓶頸類型:** revenue-zero / marketing-gap
 **嚴重程度:** high
 **報告週期:** 2026-W43
 
 ## 問題描述
 
-所有 6 個已上架產品皆為零銷售 (0 筆交易)。
+14 個已上架產品，共 0 筆交易（Gumroad API，含分頁）。
 這是最關鍵的瓶頸 — 產品已上架但無流量、無曝光、無收入。
 
 ## 瓶頸分解
 
-### 🟠 瓶頸 1: 6 個已上架產品零銷售
-- 涉及產品: The One-Person Studio, AI Workflow Builder — Free Sample Workflow, AI Prompt Library — Free Sample (12 Real Prompts), AI Workflow Builder — Turn Prompts into Validated Multi-Agent Workflows, AI Developer Stack Bundle: Orchestrate, Ship & Host, ETF Dashboard — Track Taiwan High-Yield & Global ETFs
+### 🟠 瓶頸 1: 14 個已上架產品零銷售
+- 涉及產品: The One-Person Studio, AI Workflow Builder — Free Sample Workflow, AI Prompt Library — Free Sample (12 Real Prompts), Slashman Tools Everything Bundle — 12 Products + All Future Releases, AI Workflow Builder — Turn Prompts into Validated Multi-Agent Workflows, AI Developer Stack Bundle: Orchestrate, Ship & Host, ETF Dashboard — Track Taiwan High-Yield & Global ETFs, Cowork Pro, Ship With AI: The 4-Hour Course to Automate Real Work (No Code), AI Practical Course in Traditional Chinese — 4 Modules, 17 Lessons (Zero to Advanced), AI Prompt Library — 95+ Battle-Tested Prompts, Copy-Paste Ready, DGX Spark (GB10) Dual-Model LLM Deployment Kit: Run Two Models on One Box Without OOM, SAAS Starter Kit, Automation - 2 People Chat News
 - 建議: 需要行銷引流 — Landing Page + Social Media
 
-### 🟡 瓶頸 2: 4 個產品仍為草稿狀態
-- 涉及產品: The Ultimate AI Prompt Engineering Guide, Top 10 High-Leverage AI Prompts, Slashman Tools Everything Bundle — 12 Products + All Future Releases, AI Starter Bundle: Learn, Prompt & Ship
-- 建議: 完成草稿產品上架
+### 🔴 瓶頸 2: 1 個已上架產品缺少實際內容檔
+- 涉及產品: AI Prompt Library — 95+ Battle-Tested Prompts, Copy-Paste Ready
+- 建議: 上傳產品內容檔案，否則無法交付
 
 ## 根因分析
 
@@ -36,8 +36,7 @@
 - 描述缺乏 social proof（推薦、評價）
 
 ### 3. 定價策略 (Medium)
-- 需觀察市場對 $49/$297/$197/$19 的接受度
-- 建議先以 $49 產品建立第一筆收入，再逐步提高
+- 目前售價見下方「已上架產品與售價」（取自 Gumroad API）
 
 ## 30 天行動計畫
 
@@ -65,21 +64,28 @@
 - [ ] 收集早期客戶反饋
 - [ ] 啟動第二波行銷
 
-## 預估收入
+## 已上架產品與售價
 
-| 產品 | 預估月銷售 | 單價 | 月收入 |
-|------|----------|------|--------|
-| AI Prompt 庫 | 5-20 筆 | $49 | $245-$980 |
-| AI 實戰課程 | 2-10 筆 | $297 | $594-$2,970 |
-| 飛書模板套組 | 3-15 筆 | $197 | $591-$2,955 |
-| ETF 儀表板 | 5-30 筆 | $19 | $95-$570 |
-| **合計** | **15-95 筆** | | **$1,525-$7,475** |
-
-**關鍵假設:** 第一個月累積緩慢，但 30 天內應有第一筆收入。若無收入則需重新評估市場定位。
+| 產品 | 價格 | 銷售量 | 收入 | 狀態 |
+|------|------|--------|------|------|
+| The One-Person Studio | $12 | 0 | $0.00 | ✅ 可購買 |
+| AI Workflow Builder — Free Sample Workflow | $0+ | 0 | $0.00 | ✅ 可購買 |
+| AI Prompt Library — Free Sample (12 Real Prompts) | $0+ | 0 | $0.00 | ✅ 可購買 |
+| Slashman Tools Everything Bundle — 12 Products + All Future Releases | $199 | 0 | $0.00 | ✅ 可購買 |
+| AI Workflow Builder — Turn Prompts into Validated Multi-Agent Workflows | $99 | 0 | $0.00 | ✅ 可購買 |
+| AI Developer Stack Bundle: Orchestrate, Ship & Host | $79 | 0 | $0.00 | ✅ 可購買 |
+| ETF Dashboard — Track Taiwan High-Yield & Global ETFs | $29 | 0 | $0.00 | ✅ 可購買 |
+| Cowork Pro | $59 | 0 | $0.00 | ✅ 可購買 |
+| Ship With AI: The 4-Hour Course to Automate Real Work (No Code) | $39 | 0 | $0.00 | ✅ 可購買 |
+| AI Practical Course in Traditional Chinese — 4 Modules, 17 Lessons (Zero to Advanced) | $69 | 0 | $0.00 | ✅ 可購買 |
+| AI Prompt Library — 95+ Battle-Tested Prompts, Copy-Paste Ready | $39 | 0 | $0.00 | ✅ 可購買 |
+| DGX Spark (GB10) Dual-Model LLM Deployment Kit: Run Two Models on One Box Without OOM | $79 | 0 | $0.00 | ✅ 可購買 |
+| SAAS Starter Kit | $99.99 | 0 | $0.00 | ✅ 可購買 |
+| Automation - 2 People Chat News | $19 | 0 | $0.00 | ✅ 可購買 |
 
 ## 下次調研日期
 
-如 {WEEK_END} 前仍無收入，重新調研並調整策略。下次自動調研日期: 下週一 10:00 AM
+如 2026-10-25 前仍無收入，重新調研並調整策略。下次自動調研日期: 下週一 10:00 AM
 ---
 
-*自動生成於 {DATE}*
+*自動生成於 2026-10-23*
