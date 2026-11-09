@@ -1,68 +1,28 @@
 # 數位商品瓶頸分析 — 2026-11-09
 
 **觸發日期:** 2026-11-09
-**瓶頸類型:** revenue-zero / marketing-gap
+**瓶頸類型:** revenue-zero / conversion-gap
 **嚴重程度:** high
 **報告週期:** 2026-W46
 
 ## 問題描述
 
-15 個已上架產品，共 0 筆交易（Gumroad API，含分頁）。
-這是最關鍵的瓶頸 — 產品已上架但無流量、無曝光、無收入。
+15 個已上架產品，共 0 筆交易（Gumroad API，含分頁與單品 API 檢查）。
 
 ## 瓶頸分解
 
 ### 🟠 瓶頸 1: 15 個已上架產品零銷售
 - 涉及產品: LINE 對話生成器 Pro 授權 · LINE Chat Generator Pro, The One-Person Studio, AI Workflow Builder — Free Sample Workflow, AI Prompt Library — Free Sample (12 Real Prompts), Slashman Tools Everything Bundle — 12 Products + All Future Releases, AI Workflow Builder — Turn Prompts into Validated Multi-Agent Workflows, AI Developer Stack Bundle: Orchestrate, Ship & Host, ETF Dashboard — Track Taiwan High-Yield & Global ETFs, Cowork Pro, Ship With AI: The 4-Hour Course to Automate Real Work (No Code), AI Practical Course in Traditional Chinese — 4 Modules, 17 Lessons (Zero to Advanced), AI Prompt Library — 95+ Battle-Tested Prompts, Copy-Paste Ready, DGX Spark (GB10) Dual-Model LLM Deployment Kit: Run Two Models on One Box Without OOM, SAAS Starter Kit, Automation - 2 People Chat News
-- 建議: 需要行銷引流 — Landing Page + Social Media
+- 建議: 優化現有商品頁導購連結與轉換漏斗追蹤
 
-### 🔴 瓶頸 2: 3 個已上架產品缺少實際內容檔
-- 涉及產品: LINE 對話生成器 Pro 授權 · LINE Chat Generator Pro, Slashman Tools Everything Bundle — 12 Products + All Future Releases, AI Prompt Library — 95+ Battle-Tested Prompts, Copy-Paste Ready
-- 建議: 上傳產品內容檔案，否則無法交付
+## 關鍵洞察（API 實測）
 
-## 根因分析
+⚠️ 歷史總收入為 $0 — 產品已上架且具備交付內容，需聚焦導購轉換
 
-### 1. 流量來源為零 (Critical)
-- 無 Landing Page 作為轉換入口
-- 無 Twitter/X 帳號運營
-- 無 Reddit/社群參與
-- 無 SEO 自然流量
-
-**影響:** 潛在客戶找不到你的產品。Gumroad 平台內流量也需要產品有標籤、有評價。
-
-### 2. 產品頁面不完整 (High)
-- 多個產品缺少封面圖 → 點擊率低
-- 所有產品標籤 (tags) 空白 → 平台內不可發現
-- 描述缺乏 social proof（推薦、評價）
-
-### 3. 定價策略 (Medium)
-- 目前售價見下方「已上架產品與售價」（取自 Gumroad API）
-
-## 30 天行動計畫
-
-### 第 1 週：基礎建設 (Day 1-7)
-- [ ] 建立 Landing Page (Next.js + Vercel, 免費)
-- [ ] 所有已上架產品加上高品質封面圖 (Flux AI 生成)
-- [ ] 為每個產品加上 6-10 個標籤 (tags)
-- [ ] 在 Gumroad 加入免費預覽內容
-
-### 第 2 週：冷啟動 (Day 8-14)
-- [ ] 建立 Twitter/X 帳號 (@slashman6)
-- [ ] 每天發布 1-2 則相關內容
-- [ ] 加入 Reddit: r/AI, r/ChatGPT, r/SaaS, r/gumroad
-- [ ] 發布 Gumroad 上架公告 (Gumroad social channels)
-
-### 第 3 週：擴張 (Day 15-21)
-- [ ] 啟動 LinkedIn 專業內容
-- [ ] 嘗試 Gumroad 付費推廣 ($5-10/天)
-- [ ] 建立 Email List (Mailchimp/ConvertKit)
-- [ ] 加入 HuggingFace / GitHub 社群
-
-### 第 4 週：優化 (Day 22-30)
-- [ ] 分析流量來源數據
-- [ ] 調整定價策略
-- [ ] 收集早期客戶反饋
-- [ ] 啟動第二波行銷
+### Gumroad 產品健康度（API 實測）
+- 內容交付 (files / rich_content)：15/15 個已上架產品具備檔案或 Rich Content 交付
+- 產品封面 (covers)：15/15 個已上架產品已設定封面圖
+- 產品標籤 (tags)：15/15 個已上架產品已設定標籤
 
 ## 已上架產品與售價
 
